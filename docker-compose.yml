@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  m05lab:
+    image: m05lab
+    build:
+      context: .
+      dockerfile: ./Dockerfile
